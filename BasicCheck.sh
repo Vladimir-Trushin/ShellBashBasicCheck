@@ -72,7 +72,7 @@ echo "Start thread check--------------------------------------------------------
 valgrind --tool=helgrind --error-exitcode=1 ./main $args 2>&1
 if [ $? -eq 1 ]
 then
-ret=$(( $ret | 1 )) # thread error
+    ret=$(( $ret | 1 )) # thread error
 fi
 echo "End thread check----------------------------------------------------------"
 #--------------------------------------------------------------------
