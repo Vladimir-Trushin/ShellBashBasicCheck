@@ -13,8 +13,8 @@ then
 else
     echo "The directory <$path> is not exist"
     echo
-    echo "END OF BASICCHECK: 4"
-    exit 4
+    echo "END OF BASICCHECK: 7"
+    exit 7
 fi
 #--------------------------------------------------------------------
 
@@ -31,23 +31,23 @@ then
     then
         echo "Compilation error, please check the Makefile"
         echo
-        echo "END OF BASICCHECK: 4"
-        exit 4
+        echo "END OF BASICCHECK: 7"
+        exit 7
     fi
 
     if ! [ -x $proname ]
     then
         echo "The argument name does not equal the name of the application"
         echo
-        echo "END OF BASICCHECK: 4"
-        exit 4
+        echo "END OF BASICCHECK: 7"
+        exit 7
     fi
             
 else
     echo "The Makefile does not exist"
     echo
-    echo "END OF BASICCHECK: 4"
-    exit 4
+    echo "END OF BASICCHECK: 7"
+    exit 7
 fi
 #--------------------------------------------------------------------
 
