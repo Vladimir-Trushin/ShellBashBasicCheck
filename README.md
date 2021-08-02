@@ -1,2 +1,2 @@
 # BasicCheck
-First assignment: bash script valgrind BasicCheck.sh
+bash script valgrind, cheking leak memory and thread safety
